@@ -1,0 +1,15 @@
+name: BlockCountWinner
+version: 1.0
+main: com.koirdsuzu.blockcountwinner.BlockCountWinner
+api-version: 1.16
+commands:
+  checkrange:
+    description: Check the block count for a predefined range.
+    usage: /<command> <range_identifier>
+  checkcustomrange:
+    description: Check the block count for a custom range.
+    usage: /<command> <x> <y> <z> <dx> <dy> <dz>
+permissions:
+  blockcountwinner.admin:
+    description: Allows the player to execute admin commands.
+    default: op

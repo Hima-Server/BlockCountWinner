@@ -1,0 +1,29 @@
+# チーム名の設定
+teamname1: '&6オレンジ' # チーム1の名前（カラーコード可）
+teamname2: '&9ブルー'   # チーム2の名前（カラーコード可）
+
+# 対象ブロックの設定
+block1: 'ORANGE_WOOL'     # チーム1のブロックタイプ
+block2: 'BLUE_WOOL'  # チーム2のブロックタイプ
+
+# 勝利メッセージのフォーマット
+message: '&6{team}の勝ち！結果は {team1} が {percent1}%、{team2} が {percent2}% でした。'
+
+# 範囲のプリセット設定（例: hani1, hani2）
+hani1:
+  world: 'world' # 対象のワールド名
+  x: 100         # 範囲の始点のX座標
+  y: 65          # 範囲の始点のY座標
+  z: 100         # 範囲の始点のZ座標
+  dx: 10         # 範囲のX方向の広さ
+  dy: 5          # 範囲のY方向の高さ
+  dz: 10         # 範囲のZ方向の広さ
+
+hani2:
+  world: 'world_nether'
+  x: -50
+  y: 30
+  z: -50
+  dx: 20
+  dy: 10
+  dz: 20
